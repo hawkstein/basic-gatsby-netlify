@@ -13,7 +13,8 @@ export const PureLayout = ({ children, data }) => {
         <Header siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>
         <footer>
-          © {data.site.siteMetadata.author} {new Date().getFullYear()}
+          All Rights Reserved © {data.site.siteMetadata.author}{" "}
+          {new Date().getFullYear()}
         </footer>
       </div>
     </>
