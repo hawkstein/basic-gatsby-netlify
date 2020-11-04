@@ -11,7 +11,7 @@ module.exports = {
   siteMetadata: {
     title: `Basic Gatsby Netlify Site`,
     description: `A basic scaffold for building a Gatsby site to deploy on Netlify.`,
-    author: `@liamhawks`,
+    author: `Your Name Here`,
     siteUrl,
   },
   plugins: [
